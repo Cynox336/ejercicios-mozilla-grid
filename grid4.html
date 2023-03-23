@@ -27,10 +27,19 @@
       object-fit: cover;
     }
 
+    .container {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
     .tags {
       margin: 0;
       padding: 0;
       list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
 
     .tags>* {
